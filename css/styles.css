@@ -172,10 +172,15 @@ top: 2280px;
     background-color: var(--secondary-color);
   }
   .hero-title {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    max-width: 496px;
+  
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: var(--third-color);
   }
   .hero-button {
