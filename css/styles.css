@@ -350,7 +350,10 @@ top: 2280px;
     padding-top: 96px;
   }
   /* Filter */
-
+  .filter-list {
+    margin-bottom: 72px;
+    justify-content: center;
+  }
   
   .filter-button {
     font-family: inherit;
