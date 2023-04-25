@@ -105,7 +105,10 @@ top: 1548px;
   margin-bottom: 8px;
 }
 /* Filter */
-
+.filter-list {
+  margin-bottom: 72px;
+  justify-content: center;
+}
 .filter-button {
   padding: 12px 24px;
 
@@ -126,10 +129,7 @@ top: 1548px;
   background-color: var(--pressed-state-color);
   border: 1px solid transparent;
 }
-.filter-list {
-  margin-bottom: 72px;
-  justify-content: center;
-}
+
 
  /* Footer */
  
