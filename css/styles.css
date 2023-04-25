@@ -281,6 +281,10 @@ top: 2280px;
   .hero-button:focus {
     background-color: var(--pressed-state-color);
   }
+  .hero.section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
   /* Team */
   .team-container {
     padding: 32px 16px;
