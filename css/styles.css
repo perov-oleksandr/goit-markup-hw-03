@@ -9,6 +9,13 @@
     --primary-text: #434455;
     --accent-color: #e7e9fc;
     --light-color: #f4f4fd;
+    --primary-text: #434455;
+    --accent-color: #e7e9fc;
+    --light-color: #f4f4fd;
+  
+    --hero-button-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    --team-card-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
   /* Styles reset */
   h1,h2,h3,h4,h5,h6,p {
@@ -218,6 +225,12 @@ top: 2280px;
   }
   
   /* Portfolio */
+
+  .projects.section {
+    padding-top: 96px;
+  }
+  /* Filter */
+
   
   .filter-button {
     font-family: inherit;
@@ -240,3 +253,28 @@ top: 2280px;
     letter-spacing: 0.02em;
     color: var(--primary-text);
   }
+/* Projects */
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.list-item {
+  max-width: calc((100%-48px) / 3);
+}
+.project-container {
+  padding: 32px 16px;
+  border: 1px solid var(--accent-color);
+  border-top: none;
+}
+.project-title {
+  margin-bottom: 8px;
+}
+.project-discr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text);
+}
