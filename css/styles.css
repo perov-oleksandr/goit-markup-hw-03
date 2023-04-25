@@ -42,7 +42,13 @@
   max-width: 100%;
   height: auto
 }
-
+/*features */
+.features-item {
+  width: calc((100%-72px) / 4);
+}
+.features-title {
+  margin-bottom: 8px;
+}
   /* block 1 
   .features {
     position: absolute;
