@@ -14,28 +14,29 @@
   h1,h2,h3,h4,h5,h6,p {
     margin: 0;
   }
+  .project-container {
+    padding: 32px 16px;
+    border: 1px solid var(--accent-color);
+    border-top: none;}
+
   img {
     display: block;
   }
   .container{
-    width: 1440px;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
     /* Dark-bg */
-
-
-position: absolute;
-width: 1440px;
-height: 600px;
-left: 0px;
-top: 72px;
-
-/* NAVY BLUE */
-
-background: #2E2F42;
   }
-  
+  .team-img,
+.project-foto {
+  display: block;
+  max-width: 100%;
+  height: auto
+}
 
-  /* block 1 */
+  /* block 1 
   .features {
     position: absolute;
 width: 1128px;
@@ -43,7 +44,7 @@ height: 104px;
 left: 156px;
 top: 792px;
   }
-   /* block 2 */
+   /* block 2 
    .work {
    position: absolute;
    width: 1128px;
@@ -51,7 +52,7 @@ top: 792px;
    left: 156px;
    top: 1016px;
    }
-/* block 3 */
+/* block 3 
 .team{
   
 position: absolute;
@@ -59,7 +60,8 @@ width: 1440px;
 height: 732px;
 left: 0px;
 top: 1548px;
-}
+} */
+
  /* Footer */
 .footer {
  
@@ -111,8 +113,16 @@ top: 2280px;
     background-color: var(--third-color);
   }
   /* Header */
+  .page-header {
+    border-bottom: 1px solid var(--accent-color);
+  }
+  .header-container,
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
   .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -120,17 +130,28 @@ top: 2280px;
     text-transform: uppercase;
     color: var(--primary-brand-color);
   }
+  .header-logo {
+    margin-right: 76px;
+  }
   .logo-part-header {
     color: var(--secondary-color);
   }
   .nav-link {
+    display: block;
+    padding: 24px 0;
+  
     font-weight: 500;
     color: var(--secondary-color);
   }
   .mail-tel {
+    margin-left: auto;
+  
     font-style: normal;
   }
   .mail-tel-link {
+    display: block;
+    padding: 24px 0;
+  
     color: inherit;
   }
   .nav-link:hover,
@@ -165,6 +186,11 @@ top: 2280px;
     background-color: var(--pressed-state-color);
   }
   /* Team */
+  .team-container {
+    padding: 32px 16px;
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+  }
   .team {
     background-color: var(--light-color);
   }
@@ -174,11 +200,21 @@ top: 2280px;
   }
   /* Footer */
   .footer-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
     background-color: var(--secondary-color);
     color: var(--light-color);
   }
   .logo-part-footer {
     color: var(--light-color);
+  }
+  .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .footer-text {
+    max-width: 264px;
   }
   
   /* Portfolio */
