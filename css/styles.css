@@ -23,6 +23,9 @@
   h1,h2,h3,h4,h5,h6,p {
     margin: 0;
   }
+    .link {
+      text-decoration: none;
+    }
   .project-container {
     padding: 32px 16px;
     border: 1px solid var(--accent-color);
